@@ -7,9 +7,9 @@ import { ThemeProvider } from "next-themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alex Johnson | Full Stack Developer",
+  title: "Tahmina Afroz | Full Stack Developer",
   description:
-    "Portfolio of Alex Johnson - Full Stack Developer specializing in React, Next.js, and modern web technologies",
+    "Portfolio of Tahmina Afroz - Full Stack Developer specializing in React, Next.js, and modern web technologies",
 };
 
 export default function RootLayout({

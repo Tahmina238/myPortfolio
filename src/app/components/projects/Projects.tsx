@@ -22,15 +22,14 @@ const projects = [
     githubUrl: "#",
   },
   {
-    title: "Task Management App",
+    title: "Scale Startup Landing Page",
     description:
       "Collaborative task management application with real-time updates and team functionality",
-    image: "",
-    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+    image: "https://i.ibb.co/ZpPF5m6D/Screenshot-2025-06-17-172518.png",
+    tags: ["Next.js", "TypeScript", "Tailwindcss"],
     category: "Web App",
-    liveUrl: "#",
-    githubUrl: "#",
-    details: "/",
+    liveUrl: "https://scale-startup.vercel.app/",
+    githubUrl: "https://scale-startup.vercel.app/",
   },
   {
     title: "Weather Mobile App",
@@ -135,7 +134,7 @@ export default function MyProjects() {
                 whileHover={{ y: -5 }}
                 className="bg-card rounded-lg overflow-hidden border shadow-sm hover:shadow-lg transition-all duration-300"
               >
-                <div className=" w- full h-40 relative  overflow-hidden">
+                <div className=" w-full h-60 relative  overflow-hidden">
                   <Image
                     src={project.image}
                     alt={project.title}
@@ -179,16 +178,6 @@ export default function MyProjects() {
                       >
                         <Github className="mr-2 h-4 w-4" />
                         Code
-                      </a>
-                    </Button>
-                    <Button
-                      className="bg-blue-100"
-                      size="sm"
-                      variant="outline"
-                      asChild
-                    >
-                      <a href={project.details} target="_blank" rel="">
-                        <details className="mr-2 h-auto w-auto" />
                       </a>
                     </Button>
                   </div>
