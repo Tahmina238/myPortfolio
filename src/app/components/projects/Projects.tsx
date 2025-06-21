@@ -12,64 +12,66 @@ import { Badge } from "@/ui/badge";
 
 const projects = [
   {
+    title: "Bike Store App",
+    description:
+      "A sleek and user-friendly bike store app that allows customers to browse, customize, and purchase bikes with secure online payments.",
+    image: "https://i.ibb.co/5W7DKBhm/Screenshot-2025-06-20-004207.png",
+    tags: ["React", "next.js", "Tailwind-Css", "Typescript"],
+    category: "UI/UX",
+    liveUrl: "https://bike-store-app-ictu.vercel.app/",
+    githubUrl: "https://github.com/Tahmina238/Bike-Store-App",
+  },
+
+  {
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce platform with payment processing, inventory management, and admin dashboard",
-    image: "",
+    image: "https://i.ibb.co/tpbGWBwS/Screenshot-2025-06-18-213950.png",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
     category: "Web App",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://dashing-pothos-f5ab02.netlify.app/",
+    githubUrl: "https://github.com/Tahmina238/Fresh-Bucket",
   },
   {
     title: "Scale Startup Landing Page",
     description:
-      "Collaborative task management application with real-time updates and team functionality",
+      "A high-converting landing page for Scale Startup designed to showcase services, build credibility, and drive customer sign-ups with modern, responsive design.",
     image: "https://i.ibb.co/ZpPF5m6D/Screenshot-2025-06-17-172518.png",
     tags: ["Next.js", "TypeScript", "Tailwindcss"],
     category: "Web App",
-    liveUrl: "https://scale-startup.vercel.app/",
+    liveUrl: "https://scale-startup-wxkl.vercel.app/",
     githubUrl: "https://scale-startup.vercel.app/",
   },
   {
-    title: "Weather Mobile App",
+    title: "My portfolio with Basic css",
     description:
-      "Cross-platform weather application with location-based forecasts and interactive maps",
-    image: "/placeholder.svg?height=300&width=400",
-    tags: ["React Native", "Expo", "Weather API"],
+      "A simple and clean personal portfolio built using basic HTML and CSS to showcase projects, skills, and contact information.",
+    image: "https://i.ibb.co/tMHTzVN6/Screenshot-2025-06-19-132314.png",
+    tags: [""],
     category: "Mobile",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://basic-css-gpuy.vercel.app/",
+    githubUrl: "https://github.com/Tahmina238/Basic--CSS",
   },
   {
     title: "Social Media API",
     description:
       "RESTful API for social media platform with authentication, posts, comments, and real-time features",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://i.ibb.co/4RtyNNYL/Screenshot-2025-06-15-145929.png",
     tags: ["Node.js", "Express", "MongoDB", "Socket.io"],
     category: "API",
     liveUrl: "#",
     githubUrl: "#",
   },
+
   {
-    title: "Finance Dashboard",
+    title: "DashBoard",
     description:
-      "Analytics dashboard for financial data visualization with interactive charts and reports",
-    image: "/placeholder.svg?height=300&width=400",
-    tags: ["React", "D3.js", "Chart.js", "Firebase"],
-    category: "UI/UX",
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Fitness Tracker",
-    description:
-      "Mobile fitness tracking application with workout plans, progress tracking, and social features",
-    image: "",
-    tags: ["React Native", "Firebase", "Redux"],
+      "A responsive and interactive dashboard built with Next.js and Tailwind CSS for real-time data visualization and seamless user experience.",
+    image: "https://i.ibb.co/KZJXLCw/Screenshot-2025-06-21-141835.png",
+    tags: ["Next Js", "FTailwindCSS", "ShadCn"],
     category: "Mobile",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://vercel.com/tahminas-projects-2da09971/dashboard",
+    githubUrl: "https://github.com/Tahmina238/Dashboard",
   },
 ];
 
@@ -100,26 +102,6 @@ export default function MyProjects() {
             experience
           </p>
         </motion.div>
-
-        {/* Filter Buttons */}
-        {/* <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="flex flex-wrap justify-center gap-2 mb-12"
-        >
-          {filters.map((filter) => (
-            <Button
-              key={filter}
-              variant={activeFilter === filter ? "default" : "outline"}
-              onClick={() => setActiveFilter(filter)}
-              className=" min-w-[100px]"
-            >
-              {filter}
-            </Button>
-          ))}
-        </motion.div> */}
 
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
