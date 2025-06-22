@@ -16,7 +16,14 @@ const projects = [
     description:
       "A sleek and user-friendly bike store app that allows customers to browse, customize, and purchase bikes with secure online payments.",
     image: "https://i.ibb.co/5W7DKBhm/Screenshot-2025-06-20-004207.png",
-    tags: ["React", "next.js", "Tailwind-Css", "Typescript"],
+    tags: [
+      "React",
+      "next.js",
+      "Mongodb",
+      "Express ",
+      "Tailwind-Css",
+      "Typescript",
+    ],
     category: "UI/UX",
     liveUrl: "https://bike-store-app-ictu.vercel.app/",
     githubUrl: "https://github.com/Tahmina238/Bike-Store-App",
@@ -53,14 +60,14 @@ const projects = [
     githubUrl: "https://github.com/Tahmina238/Basic--CSS",
   },
   {
-    title: "Social Media API",
+    title: "Fresh Bucket",
     description:
       "RESTful API for social media platform with authentication, posts, comments, and real-time features",
     image: "https://i.ibb.co/4RtyNNYL/Screenshot-2025-06-15-145929.png",
-    tags: ["Node.js", "Express", "MongoDB", "Socket.io"],
+    tags: ["Reactjs", "Sass", "Bootstrap"],
     category: "API",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://dashing-pothos-f5ab02.netlify.app/",
+    githubUrl: "https://github.com/Tahmina238/Fresh-Bucket",
   },
 
   {
@@ -70,7 +77,7 @@ const projects = [
     image: "https://i.ibb.co/KZJXLCw/Screenshot-2025-06-21-141835.png",
     tags: ["Next Js", "FTailwindCSS", "ShadCn"],
     category: "Mobile",
-    liveUrl: "https://vercel.com/tahminas-projects-2da09971/dashboard",
+    liveUrl: "https://dashboard-rosy-nine-48.vercel.app/",
     githubUrl: "https://github.com/Tahmina238/Dashboard",
   },
 ];
