@@ -63,7 +63,7 @@ export default function Navbar() {
     <motion.header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-background/80 backdrop-blur-md shadow-lg border-b"
+          ? "bg-background/80 backdrop-blur-md shadow-lg border-b-blue-500"
           : "bg-transparent"
       }`}
       initial={{ y: -100 }}

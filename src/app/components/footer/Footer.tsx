@@ -28,7 +28,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-muted py-16   bg-gradient-to-r from-fuchsia-100 ">
+    <footer className="py-4 inset-0 bg-gradient-to-br via-purple-300/30 to-pink-400/50 dark:from-blue-950/20 dark:via-purple-950/10 dark:to-pink-950/20 ">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
@@ -159,7 +159,7 @@ export default function Footer() {
               </div>
               <div>
                 <Link href="/overview ">
-                  <Button className=" bg-blue-600">Overview</Button>
+                  <Button className=" bg-blue-600 text-white">Overview</Button>
                 </Link>
               </div>
             </div>

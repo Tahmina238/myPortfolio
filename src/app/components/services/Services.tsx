@@ -332,7 +332,7 @@ export default function ServicesSection() {
   return (
     <section
       id="services"
-      className="py-6 bg-gradient-to-tr  via-amber-100-100/20 to-amber-200/30   "
+      className="py-4 inset-0 bg-gradient-to-br via-purple-200 to-pink-300/50 dark:from-blue-950/20 dark:via-purple-950/10 dark:to-pink-750/20   "
     >
       <div className="container mx-auto px-4">
         <motion.div
@@ -344,7 +344,9 @@ export default function ServicesSection() {
         >
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Server className="h-8 w-8 text-green-500" />
-            <h2 className="text-3xl md:text-4xl font-bold">Services I Offer</h2>
+            <h2 className="text-4xl  mb-4 font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent ">
+              Services I Offer
+            </h2>
             <Zap className="h-8 w-8 text-yellow-500" />
           </div>
           <p className="text-muted-foreground max-w-2xl mx-auto">

@@ -33,10 +33,10 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce platform with payment processing, inventory management, and admin dashboard",
-    image: "https://i.ibb.co/tpbGWBwS/Screenshot-2025-06-18-213950.png",
+    image: "https://i.ibb.co/2RTP8Hv/Screenshot-2025-06-24-184811.png",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
     category: "Web App",
-    liveUrl: "https://dashing-pothos-f5ab02.netlify.app/",
+    liveUrl: "https://fresh-bucket-2xd2.vercel.app/",
     githubUrl: "https://github.com/Tahmina238/Fresh-Bucket",
   },
   {
@@ -60,13 +60,13 @@ const projects = [
     githubUrl: "https://github.com/Tahmina238/Basic--CSS",
   },
   {
-    title: "Fresh Bucket",
+    title: "Fruits Basket",
     description:
       "RESTful API for social media platform with authentication, posts, comments, and real-time features",
     image: "https://i.ibb.co/4RtyNNYL/Screenshot-2025-06-15-145929.png",
     tags: ["Reactjs", "Sass", "Bootstrap"],
     category: "API",
-    liveUrl: "https://dashing-pothos-f5ab02.netlify.app/",
+    liveUrl: "https://fresh-bucket-2xd2.vercel.app/ ",
     githubUrl: "https://github.com/Tahmina238/Fresh-Bucket",
   },
 
@@ -93,7 +93,7 @@ export default function MyProjects() {
   return (
     <section
       id="projects"
-      className="py-4 bg-muted/30  bg-gradient-to-r from-blue-200 to-purple-100 hover:from-blue-200 hover:to-purple-200    "
+      className="py-4 inset-0 bg-gradient-to-br via-purple-400/30 to-pink-200/50 dark:from-blue-950/20 dark:via-purple-950/10 dark:to-pink-750/20    "
     >
       <div className="container mx-auto px-4">
         <motion.div
@@ -103,7 +103,9 @@ export default function MyProjects() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">My Projects</h2>
+          <h2 className=" md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+            My Projects
+          </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Here are some of my recent projects that showcase my skills and
             experience

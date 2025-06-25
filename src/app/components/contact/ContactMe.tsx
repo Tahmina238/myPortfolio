@@ -65,7 +65,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-6 bg-gradient-to-r from-blue-100 to-purple-200 hover:from-blue-100 hover:to-purple-200   "
+      className="py-4 inset-0 bg-gradient-to-br via-purple-400/30 to-pink-100/50 dark:from-blue-950/20 dark:via-purple-950/10 dark:to-pink-750/20 "
     >
       <div className="container mx-auto px-4">
         <motion.div
@@ -75,7 +75,9 @@ export default function ContactSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
+          <h2 className="text-4xl  mb-4 font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+            Get In Touch
+          </h2>
           <p className=" max-w-2xl mx-auto">
             Have a project in mind? Let&apos;s discuss how we can work together
             to bring your ideas to life
@@ -92,7 +94,7 @@ export default function ContactSection() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-2xl font-bold mb-4">
+              <h3 className="text-2xl text-blue-600 font-bold mb-4">
                 Let&apos;s Start a Conversation
               </h3>
               <p className=" mb-8">
@@ -105,13 +107,13 @@ export default function ContactSection() {
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="bg-card p-4 rounded-lg border shadow-sm">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-blue-200 p-3 rounded-lg">
-                    <Mail className="h-5 w-5 text-primary" />
+                  <div className="bg-cyan-200  p-3 rounded-lg">
+                    <Mail className="h-5 w-5 text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1 ">Email</h4>
                     <Link href="mailto:tahmina.afroz8801@gmail.com">
-                      <p className=" text-blue-600 font-medium text-sm underline">
+                      <p className="text-blue-600  font-medium text-sm underline ">
                         tahmina.afroz8801@gmail.com
                       </p>
                     </Link>
@@ -125,11 +127,11 @@ export default function ContactSection() {
               <div className="bg-card p-4 rounded-lg border shadow-sm">
                 <div className="flex items-start space-x-4">
                   <div className="bg-blue-200 p-3 rounded-lg">
-                    <Phone className="h-5 w-5 text-primary" />
+                    <Phone className="h-5 w-5 text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-foreground font-medium text-sm">
+                    <p className="text-blue-600 font-medium text-sm">
                       +1 (000) 000-0000
                     </p>
                     <p className="text-xs text-muted-foreground">
@@ -141,14 +143,14 @@ export default function ContactSection() {
 
               <div className="bg-card p-4 rounded-lg border shadow-sm">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-blue-200 p-3 rounded-lg">
-                    <MapPin className="h-5 w-5 text-primary" />
+                  <div className="bg-pink-200 p-3 rounded-lg">
+                    <MapPin className="h-5 w-5 text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Location</h4>
 
                     <Link href="https://www.mapquest.com/us/new-york/queens-ny-283585649">
-                      <p className="font-medium text-sm text-blue-600">
+                      <p className=" text-blue-600 font-medium text-sm ">
                         Queens,NewYork
                       </p>
                     </Link>
@@ -161,12 +163,12 @@ export default function ContactSection() {
 
               <div className="bg-card p-4 rounded-lg border shadow-sm">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-blue-200 p-3 rounded-lg">
-                    <MapPin className="h-5 w-5 text-primary" />
+                  <div className="bg-amber-300 p-3 rounded-lg">
+                    <MapPin className="h-5 w-5 text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Response time</h4>
-                    <p className="text-foreground font-medium text-sm">
+                    <p className="font-medium text-sm text-blue-600">
                       24 hours
                     </p>
                     <p className="text-xs text-muted-foreground">
@@ -185,14 +187,14 @@ export default function ContactSection() {
               className="bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-950/20 dark:to-blue-950/20 p-6 rounded-xl border"
             >
               {" "}
-              <div className=" pl-50 flex gap-20">
+              {/* <div className=" pl-50 flex gap-20">
                 <Link href="mailto:tahmina.afroz8801@gmail.com">
                   <Button className="bg-blue-600 ">Email me</Button>
                 </Link>
                 <Link href="tel:+13476598801">
                   <Button className="bg-blue-600 ">Text me</Button>
                 </Link>
-              </div>
+              </div> */}
             </motion.div>
           </motion.div>
 
@@ -298,7 +300,7 @@ export default function ContactSection() {
                   </>
                 ) : (
                   <>
-                    <Send className="mr-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    <Send className=" mr-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     Send Message via Email
                   </>
                 )}
