@@ -113,7 +113,7 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold mb-1 ">Email</h4>
                     <Link href="mailto:tahmina.afroz8801@gmail.com">
-                      <p className="text-blue-600  font-medium text-sm underline ">
+                      <p className="text-blue-600 dark:text-white font-medium text-sm underline ">
                         tahmina.afroz8801@gmail.com
                       </p>
                     </Link>
@@ -131,7 +131,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-blue-600 font-medium text-sm">
+                    <p className="text-blue-600 dark:text-white font-medium text-sm">
                       +1 (000) 000-0000
                     </p>
                     <p className="text-xs text-muted-foreground">
@@ -150,7 +150,7 @@ export default function ContactSection() {
                     <h4 className="font-semibold mb-1">Location</h4>
 
                     <Link href="https://www.mapquest.com/us/new-york/queens-ny-283585649">
-                      <p className=" text-blue-600 font-medium text-sm ">
+                      <p className=" text-blue-600 dark:text-white font-medium text-sm ">
                         Queens,NewYork
                       </p>
                     </Link>
@@ -168,7 +168,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Response time</h4>
-                    <p className="font-medium text-sm text-blue-600">
+                    <p className="font-medium text-sm text-blue-600 dark:text-white">
                       24 hours
                     </p>
                     <p className="text-xs text-muted-foreground">
